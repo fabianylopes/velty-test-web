@@ -1,9 +1,17 @@
+import styled from "styled-components";
+
+import Dashboard from "./components/Dashboard";
+import Sidebar from "./components/Sidebar";
+
 function App() {
   return (
-    <>
-      <h1>Velty</h1>
-    </>
+    <Container>
+      <Sidebar />
+      <Dashboard />
+    </Container>
   );
 }
 
 export default App;
+
+const Container = styled.div``;
