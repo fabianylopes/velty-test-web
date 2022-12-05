@@ -1,15 +1,22 @@
+import pink from "../../src/assets/icons/dollar-pink.svg";
+import blue from "../../src/assets/icons/dollar-blue.svg";
+import green from "../../src/assets/icons/dollar-green.svg";
+
 const balance = [
   {
+    icon: pink,
     valor: 312.321,
     tipo: "Receita total",
     media: 67.2,
   },
   {
+    icon: blue,
     valor: 74.421,
     tipo: "Lucro total",
     media: 42.3,
   },
   {
+    icon: green,
     valor: 3.12,
     tipo: "Lucro por venda",
     media: 12.4,

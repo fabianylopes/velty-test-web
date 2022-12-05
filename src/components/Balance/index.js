@@ -1,15 +1,21 @@
-import { Container } from "./style";
-import Dollar from "../../assets/icons/dollar-pink.svg";
+import { Container, H1 } from "./style";
+import { balance } from "../../data/data";
 
 export default function Balance() {
   return (
-    <Container>
-      <img src={Dollar} alt="" />
-      <h1>R$ 312.321,00</h1>
-      <h2>Receita total</h2>
-      <div></div>
-      <h3>R$ 67,20</h3>
-      <h4>Média por cliente</h4>
-    </Container>
+    <>
+      {balance.map((b, i) => {
+        return (
+          <Container color={b.tipo} key={i}>
+            <img src={b.icon} alt="" />
+            <H1>R$ {b.valor.toFixed(2)}</H1>
+            <h2>{b.tipo}</h2>
+            <div></div>
+            <h3>R$ {b.media.toFixed(2)}</h3>
+            <h4>Média por cliente</h4>
+          </Container>
+        );
+      })}
+    </>
   );
 }
