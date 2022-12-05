@@ -8,7 +8,7 @@ export function balanceColor(tipo) {
 
 const Container = styled.div`
   width: 380px;
-  height: 310px;
+  min-height: 310px;
   background-color: ${({ color }) => balanceColor(color)};
   border-radius: 20px;
   padding: 22px 16px;

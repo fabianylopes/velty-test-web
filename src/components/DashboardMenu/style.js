@@ -5,15 +5,13 @@ const Box = styled.div`
   height: 61px;
   background-color: #fff;
   padding: 10px 16px 10px 30px;
+  margin-top: 50px;
   box-shadow: 14px 17px 40px 4px rgba(112, 144, 176, 0.08);
   border-radius: 30px;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: absolute;
-  top: 150px;
-  right: 22px;
 
   p {
     color: #707eae;

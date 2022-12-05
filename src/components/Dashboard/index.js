@@ -1,14 +1,41 @@
 import Balance from "../Balance";
+import Cotacao from "../Cotacao";
 import DashboardMenu from "../DashboardMenu";
+import Planos from "../Planos";
 import RightMenu from "../RightMenu";
-import { Container } from "./style";
+import Sale from "../Sale";
+import {
+  Container,
+  H1,
+  H2,
+  Header,
+  Balances,
+  Sales,
+  Cotacoes,
+  Plans,
+} from "./style";
 
 export default function Dashboard() {
   return (
     <Container>
-      <DashboardMenu />
-      <RightMenu />
-      <Balance />
+      <Header>
+        <H2>Principal / Dashboard</H2>
+        <H1>Velty Dashboard</H1>
+        <RightMenu />
+        <DashboardMenu />
+      </Header>
+      <Balances>
+        <Balance />
+      </Balances>
+      <Sales>
+        <Sale />
+      </Sales>
+      <Cotacoes>
+        <Cotacao />
+      </Cotacoes>
+      <Plans>
+        <Planos />
+      </Plans>
     </Container>
   );
 }

@@ -5,6 +5,9 @@ const Container = styled.div`
   height: 1152px;
   background-color: #fff;
   padding: 27px 34px;
+  position: fixed;
+  top: 0;
+  left: 0;
 
   img {
     margin-bottom: 60px;
@@ -12,18 +15,23 @@ const Container = styled.div`
 `;
 
 const Menu = styled.div`
-  div {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-  }
+  width: 100%;
+`;
+
+const Box = styled.div`
+  width: 150px;
+  height: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 14px;
 `;
 
 const Text = styled.h2`
-  color: rgba(43, 54, 116, 1);
+  color: #2b3674;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
 `;
 
-export { Container, Menu, Text };
+export { Container, Menu, Text, Box };

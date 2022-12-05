@@ -1,4 +1,4 @@
-import { Container, Menu, Text } from "./style";
+import { Container, Menu, Text, Box } from "./style";
 import Logo from "../../assets/img/logo.svg";
 import Dashboard from "../../assets/icons/home.svg";
 import Vendas from "../../assets/icons/sales.svg";
@@ -11,26 +11,36 @@ export default function Sidebar() {
     <Container>
       <img src={Logo} alt="logo" />
       <Menu>
-        <div>
-          <img src={Dashboard} alt="logo" />
+        <Box>
+          <div>
+            <img src={Dashboard} alt="logo" />
+          </div>
           <Text>Dashboard</Text>
-        </div>
-        <div>
-          <img src={Vendas} alt="logo" />
+        </Box>
+        <Box>
+          <div>
+            <img src={Vendas} alt="logo" />
+          </div>
           <Text>Vendas</Text>
-        </div>
-        <div>
-          <img src={Relatorios} alt="logo" />
+        </Box>
+        <Box>
+          <div>
+            <img src={Relatorios} alt="logo" />
+          </div>
           <Text>Relatórios</Text>
-        </div>
-        <div>
-          <img src={Lojas} alt="logo" />
+        </Box>
+        <Box>
+          <div>
+            <img src={Lojas} alt="logo" />
+          </div>
           <Text>Lojas parceiras</Text>
-        </div>
-        <div>
-          <img src={Clientes} alt="logo" />
+        </Box>
+        <Box>
+          <div>
+            <img src={Clientes} alt="logo" />
+          </div>
           <Text>Clientes</Text>
-        </div>
+        </Box>
       </Menu>
     </Container>
   );
