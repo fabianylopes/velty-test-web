@@ -1,10 +1,5 @@
 body {
-    font-family: 'DM Sans', sans-serif;
-    padding: 24px;
-    background-color: #F5F5F5;
-
-    display: flex;
-    justify-content: center;
+    font-family: 'DM Sans', sans-serif;    
 }
   
 .root {
