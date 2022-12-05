@@ -9,6 +9,7 @@ const Container = styled.div`
 
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   gap: 24px;
 `;
 
@@ -28,9 +29,21 @@ const H2 = styled.h2`
 
 const Header = styled.div`
   height: 290px;
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  div {
+    display: flex;
+    justify-content: space-between;
+  }
 `;
 
 const Balances = styled.div`
+  width: 100%;
   height: 310px;
   display: flex;
   flex-wrap: wrap;
@@ -38,14 +51,17 @@ const Balances = styled.div`
 `;
 
 const Sales = styled.div`
+  width: 100%;
   height: 95px;
 `;
 
 const Cotacoes = styled.div`
+  width: 100%;
   height: 196px;
 `;
 
 const Plans = styled.div`
+  width: 100%;
   height: 350px;
 `;
 

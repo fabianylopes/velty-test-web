@@ -11,9 +11,6 @@ const Box = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: absolute;
-  top: 65px;
-  right: 22px;
 
   img {
     border-radius: 50%;
@@ -24,7 +21,7 @@ const Input = styled.div`
   width: 214px;
   height: 41px;
   padding: 15px;
-  background-color: rgba(244, 247, 254, 1);
+  background-color: #f4f7fe;
   border-radius: 49px;
 
   display: flex;
@@ -35,8 +32,8 @@ const Input = styled.div`
     width: 100px;
     height: 20px;
     border: none;
-    background-color: rgba(244, 247, 254, 1);
-    color: rgba(143, 155, 186, 1);
+    background-color: #f4f7fe;
+    color: #8f9bba;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;

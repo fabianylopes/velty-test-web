@@ -19,9 +19,13 @@ export default function Dashboard() {
   return (
     <Container>
       <Header>
-        <H2>Principal / Dashboard</H2>
-        <H1>Velty Dashboard</H1>
-        <RightMenu />
+        <div>
+          <div className="title">
+            <H2>Principal / Dashboard</H2>
+            <H1>Velty Dashboard</H1>
+          </div>
+          <RightMenu />
+        </div>
         <DashboardMenu />
       </Header>
       <Balances>
