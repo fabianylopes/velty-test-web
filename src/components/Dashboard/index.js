@@ -1,19 +1,10 @@
 import Balance from "../Balance";
 import Cotacao from "../Cotacao";
 import DashboardMenu from "../DashboardMenu";
-import Planos from "../Planos";
+import Plans from "../Plans";
 import RightMenu from "../RightMenu";
 import Sale from "../Sale";
-import {
-  Container,
-  H1,
-  H2,
-  Header,
-  Balances,
-  Sales,
-  Cotacoes,
-  Plans,
-} from "./style";
+import { Container, H1, H2, Header, Body } from "./style";
 
 export default function Dashboard() {
   return (
@@ -28,18 +19,12 @@ export default function Dashboard() {
         </div>
         <DashboardMenu />
       </Header>
-      <Balances>
+      <Body>
         <Balance />
-      </Balances>
-      <Sales>
         <Sale />
-      </Sales>
-      <Cotacoes>
         <Cotacao />
-      </Cotacoes>
-      <Plans>
-        <Planos />
-      </Plans>
+        <Plans />
+      </Body>
     </Container>
   );
 }

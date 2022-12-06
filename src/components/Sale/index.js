@@ -10,7 +10,6 @@ export default function Sale() {
             <h2>{s.title}</h2>
             <h1>{s.value}</h1>
             <Test color={s.percentage[0]}>{s.percentage}</Test>
-            {console.log(s.percentage[0])}
           </Box>
         );
       })}

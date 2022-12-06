@@ -1,7 +1,7 @@
 import { Container, Box, Top, Bottom, Title } from "./style";
 import { planos, categorias, tiposDePlanos } from "../../data/data";
 
-export default function Planos() {
+export default function Plans() {
   return (
     <Container>
       <Box>

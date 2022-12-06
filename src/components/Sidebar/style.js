@@ -16,19 +16,22 @@ const Container = styled.div`
 
 const Menu = styled.div`
   width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 `;
 
 const Box = styled.div`
-  width: 150px;
+  width: 130px;
   height: 30px;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
   gap: 14px;
 `;
 
 const Text = styled.h2`
-  color: #2b3674;
+  color: #a3aed0;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;

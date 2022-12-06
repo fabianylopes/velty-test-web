@@ -42,27 +42,11 @@ const Header = styled.div`
   }
 `;
 
-const Balances = styled.div`
+const Body = styled.div`
   width: 100%;
-  height: 310px;
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 24px;
 `;
 
-const Sales = styled.div`
-  width: 100%;
-  height: 95px;
-`;
-
-const Cotacoes = styled.div`
-  width: 100%;
-  height: 196px;
-`;
-
-const Plans = styled.div`
-  width: 100%;
-  height: 350px;
-`;
-
-export { Container, H1, H2, Header, Balances, Sales, Cotacoes, Plans };
+export { Container, Body, H1, H2, Header };
